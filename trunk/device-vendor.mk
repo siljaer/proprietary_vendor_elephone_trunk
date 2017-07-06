@@ -51,8 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/trunk/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/elephone/trunk/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/elephone/trunk/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
-    vendor/elephone/trunk/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/elephone/trunk/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/elephone/trunk/proprietary/bin/perfd:system/bin/perfd \
+    vendor/elephone/trunk/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/elephone/trunk/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/trunk/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/elephone/trunk/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
@@ -160,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/trunk/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/elephone/trunk/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/elephone/trunk/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/elephone/trunk/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/elephone/trunk/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/elephone/trunk/proprietary/vendor/lib/libchromatix_gc2355_front_1lane_common.so:system/vendor/lib/libchromatix_gc2355_front_1lane_common.so \
     vendor/elephone/trunk/proprietary/vendor/lib/libchromatix_gc2355_front_1lane_preview.so:system/vendor/lib/libchromatix_gc2355_front_1lane_preview.so \
