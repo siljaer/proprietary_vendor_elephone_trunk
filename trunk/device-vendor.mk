@@ -32,12 +32,10 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/trunk/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/elephone/trunk/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/elephone/trunk/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/elephone/trunk/proprietary/bin/perfd:system/bin/perfd \
     vendor/elephone/trunk/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/elephone/trunk/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/elephone/trunk/proprietary/bin/radish:system/bin/radish \
     vendor/elephone/trunk/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/elephone/trunk/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/elephone/trunk/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/elephone/trunk/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/elephone/trunk/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
@@ -53,6 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/trunk/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/elephone/trunk/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/elephone/trunk/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/elephone/trunk/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/elephone/trunk/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/elephone/trunk/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/elephone/trunk/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
